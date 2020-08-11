@@ -23,13 +23,15 @@
     "build": [
       [
         "bash",
-        "./build.sh"
+        "./build.sh",
+        "#{os}"
       ]
     ],
     "install": [
       [
         "bash",
-        "./install.sh"
+        "./install.sh",
+        "#{os}"
       ]
     ],
     "exportedEnv": {
